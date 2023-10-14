@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cd1f31b-8b9c-4364-8111-82d4c581cbc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ErrorConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InfoConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Consumidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Produtor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Produtor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Consumidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Produtor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +42,10 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/felip/Downloads/Nova pasta/rabbitmq-basico"
+    "last_opened_file_path": "C:/Users/felip/Downloads/Nova pasta/rabbitmq-roteamento"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Consumidor">
+  <component name="RunManager" selected="Application.Producer">
     <configuration name="Consumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Consumidor" />
       <module name="rabbitmq-basico" />
@@ -53,21 +53,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Produtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Produtor" />
-      <module name="rabbitmq-basico" />
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Producer" />
+      <module name="rabbitmq-roteamento" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Consumidor" />
-      <item itemvalue="Application.Produtor" />
+      <item itemvalue="Application.Producer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Producer" />
         <item itemvalue="Application.Consumidor" />
-        <item itemvalue="Application.Produtor" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +93,9 @@
       <workItem from="1571071709185" duration="3882000" />
       <workItem from="1573045278068" duration="9858000" />
       <workItem from="1573129917604" duration="2735000" />
-      <workItem from="1696163894059" duration="3913000" />
+      <workItem from="1696163894059" duration="9919000" />
+      <workItem from="1697293954225" duration="457000" />
+      <workItem from="1697295116977" duration="584000" />
     </task>
     <servers />
   </component>
