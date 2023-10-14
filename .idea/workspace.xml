@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cd1f31b-8b9c-4364-8111-82d4c581cbc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ErrorConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InfoConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RPCClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RPCServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Consumidor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Produtor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ErrorConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InfoConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Producer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,32 +43,36 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/felip/Downloads/Nova pasta/rabbitmq-roteamento"
+    "last_opened_file_path": "C:/Users/felip/Downloads/RabbitMQ-RPC"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Producer">
-    <configuration name="Consumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Consumidor" />
-      <module name="rabbitmq-basico" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="RPCClient" />
+      <module name="rabbitmq-rpc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Producer" />
-      <module name="rabbitmq-roteamento" />
+    <configuration name="RPCServer" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="RPCServer" />
+      <module name="rabbitmq-rpc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Consumidor" />
-      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.RPCServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Producer" />
-        <item itemvalue="Application.Consumidor" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.RPCServer" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +100,8 @@
       <workItem from="1573129917604" duration="2735000" />
       <workItem from="1696163894059" duration="9919000" />
       <workItem from="1697293954225" duration="457000" />
-      <workItem from="1697295116977" duration="584000" />
+      <workItem from="1697295116977" duration="1091000" />
+      <workItem from="1697296284860" duration="1440000" />
     </task>
     <servers />
   </component>

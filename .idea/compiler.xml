@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq-roteamento" />
         <module name="rabbitmq-basico" />
+        <module name="rabbitmq-rpc" />
         <module name="RabbitMQSala" />
       </profile>
     </annotationProcessing>
